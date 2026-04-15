@@ -21,8 +21,8 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
 })
 let counter = 0
 let strip: neopixel.Strip = null
-strip = neopixel.create(DigitalPin.P0, 120, NeoPixelMode.RGB)
-counter = 0
+strip = neopixel.create(DigitalPin.P0, 110, NeoPixelMode.RGB)
+counter = 110
 basic.forever(function () {
 	
 })
